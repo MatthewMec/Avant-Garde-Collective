@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - Avant-Garde Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Junction:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/apply.css">
+</head>
+<body>
+    <div class="container">
+        <form class="application-form" id="applicationForm">
+            <div class="form-header">
+                <h1>Application Form</h1>
+                <p>Join the Avant-Garde Collective - Where Education Meets Innovation</p>
+            </div>
+
+            <div class="form-section">
+                <h2 class="section-title">Personal Information</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name <span class="required">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dateOfBirth">Date of Birth</label>
+                        <input type="date" id="dateOfBirth" name="dateOfBirth">
+                    </div>
+                    <div class="form-group">
+                        <label for="grade">Current Grade Level <span class="required">*</span></label>
+                        <select id="grade" name="grade" required>
+                            <option value="">Select Grade</option>
+                            <option value="K">Kindergarten</option>
+                            <option value="1">1st Grade</option>
+                            <option value="2">2nd Grade</option>
+                            <option value="3">3rd Grade</option>
+                            <option value="4">4th Grade</option>
+                            <option value="5">5th Grade</option>
+                            <option value="6">6th Grade</option>
+                            <option value="7">7th Grade</option>
+                            <option value="8">8th Grade</option>
+                            <option value="9">9th Grade</option>
+                            <option value="10">10th Grade</option>
+                            <option value="11">11th Grade</option>
+                            <option value="12">12th Grade</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="school">Current School/Institution</label>
+                    <input type="text" id="school" name="school">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2 class="section-title">Program Interest</h2>
+                <div class="form-group">
+                    <label for="program">Which programs are you most interested in? <span class="required">*</span></label>
+                    <select id="program" name="program" required>
+                        <option value="">Select Program</option>
+                        <option value="film">Film Photography 9-12</option>
+                        <option value="photography">Photography 6-12</option>
+                        <option value="beginnercad">TinkerCAD 6-8</option>
+                        <option value="design">3D Design 9-12</option>
+                        <option value="robotics">Robotics</option>
+                        <option value="spanish0">Fun with Spanish K-5</option>
+                        <option value="spanish1">Spanish I 6-12</option>
+                        <option value="spanish2">Spanish II 6-12</option>
+                        <option value="chem">Chemistry 9-12</option>
+                        <option value="bio">Biology 9-12</option>
+                        <option value="research">Drawing 6-12</option>
+                        <option value="art0">Introduction to Art 1-3</option>
+                        <option value="art1">Art for Kids</option>
+                        <option value="paintingoil">Oil Painting 9-12</option>
+                        <option value="art2">Art Collage 6-12</option>
+                        <option value="art3">Art Survey I 6-8</option>
+                        <option value="art4">Art Survey II 9-12</option>
+                        <option value="trial">Mock Trial 9-12</option>
+                        <option value="writing">Book Writing 9-12</option>
+                        <option value="legoclub">Lego Club 2-12</option>
+                        <option value="algebra0">Pre Algebra</option>
+                        <option value="drama">Drama 5-12</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Areas of Interest (select all that apply):</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="tech" name="interests" value="technology">
+                            <label for="tech">Technology</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="science" name="interests" value="science">
+                            <label for="science">Science</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="art" name="interests" value="art">
+                            <label for="art">Arts & Design</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="business" name="interests" value="business">
+                            <label for="business">Business</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="writing" name="interests" value="writing">
+                            <label for="writing">Writing</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="music" name="interests" value="music">
+                            <label for="music">Music</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2 class="section-title">Application Questions</h2>
+                <div class="form-group">
+                    <label for="motivation">Why are you interested in joining the Avant-Garde Collective? <span class="required">*</span></label>
+                    <textarea id="motivation" name="motivation" rows="4" required placeholder="Tell us what motivates you to apply and what you hope to achieve..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="goals">What are your goals for the next 2-3 years?</label>
+                    <textarea id="goals" name="goals" rows="3" placeholder="Tell us about your academic, career, or personal goals..."></textarea>
+                </div>
+            </div>
+
+            <div class="submit-section">
+                <button type="submit" class="submit-btn">Submit Application</button>
+                <div class="success-message" id="successMessage">
+                    🎉 Thank you for your application! We'll review it and get back to you soon.
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="Scripts/apply.js"></script>
+</body>
+</html>
