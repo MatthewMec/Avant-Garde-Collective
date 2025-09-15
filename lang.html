@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language & Communication - Avant-Garde Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Junction:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/program.css">
+    <style>
+        /* Language-specific color overrides */
+        :root {
+            --subject-primary: #feca57;
+            --subject-secondary: #ff9ff3;
+            --subject-gradient: linear-gradient(45deg, #feca57, #ff9ff3);
+        }
+        
+        .highlight {
+            background: var(--subject-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .course-card:hover {
+            border-color: var(--subject-primary);
+        }
+        
+        .grade-level {
+            background: rgba(254, 202, 87, 0.1);
+            color: var(--subject-primary);
+        }
+        
+        .skill-tag {
+            background: rgba(254, 202, 87, 0.1);
+            color: var(--subject-primary);
+        }
+        
+        .path-step {
+            border-color: var(--subject-primary);
+        }
+        
+        .path-arrow {
+            color: var(--subject-primary);
+        }
+        
+        .path-card:hover {
+            border-color: var(--subject-primary);
+        }
+        
+        .cta-button {
+            background: var(--subject-gradient);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="curriculum.html">← Back to Curriculum</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-icon">💬</div>
+            <h1>Language & <span class="highlight">Communication</span></h1>
+            <p class="hero-subtitle">World Languages, Writing & Public Speaking</p>
+            <p class="hero-description">Master the art of communication through language learning, creative writing, and persuasive speaking skills that open doors to global opportunities.</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="container">
+            <div class="courses-grid">
+                
+                <!-- Spanish Language Courses -->
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Fun with Spanish</h3>
+                        <div class="grade-level">Grades K-5</div>
+                    </div>
+                    <p class="course-description">This class offers a fun environment to learn a new language. We will play games while learning new words in Spanish with worksheets from Carsondellosa.com Starter Spanish book. Students will learn colors, shapes, numbers, animals, house structure and furnishings, foods and everyday greetings through interactive activities and play-based learning.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Basic Vocabulary</span>
+                        <span class="skill-tag">Interactive Games</span>
+                        <span class="skill-tag">Cultural Awareness</span>
+                        <span class="skill-tag">Pronunciation</span>
+                    </div>
+                </div>
+
+                <div class="course-card featured">
+                    <div class="course-header">
+                        <h3>Spanish I</h3>
+                        <div class="grade-level">Grades 6-12</div>
+                    </div>
+                    <p class="course-description">In this first year class we'll learn about the Spanish Language and culture. We will practice reading, play games, and listen to songs to help students feel comfortable learning a new language. Students will become familiar with Spanish words and, with some work, hopefully begin to understand and speak the Spanish language through immersive and engaging activities.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Reading Comprehension</span>
+                        <span class="skill-tag">Basic Conversation</span>
+                        <span class="skill-tag">Cultural Studies</span>
+                        <span class="skill-tag">Grammar Fundamentals</span>
+                    </div>
+                    <div class="featured-badge">Foundation</div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Spanish II</h3>
+                        <div class="grade-level">Grades 6-12</div>
+                        <div class="prerequisite">Prerequisite: Spanish I or equivalent</div>
+                    </div>
+                    <p class="course-description">With a prerequisite of a previous Spanish class, we will continue learning and practicing the Spanish language, focusing more on conversational skills and using past, present and future tenses. Students will develop greater fluency through advanced grammar, extended conversations, and cultural exploration.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Advanced Grammar</span>
+                        <span class="skill-tag">Verb Conjugation</span>
+                        <span class="skill-tag">Fluent Conversation</span>
+                        <span class="skill-tag">Cultural Immersion</span>
+                    </div>
+                </div>
+
+                <!-- Legal and Public Speaking -->
+                <div class="course-card featured">
+                    <div class="course-header">
+                        <h3>Mock Trial</h3>
+                        <div class="grade-level">Grades 9-12</div>
+                    </div>
+                    <p class="course-description">Develop public speaking and analytical skills in this mock trial course. Students will dive into the American judicial system by taking on roles as lawyers, witnesses, and judges in a simulated courtroom setting. The class covers trial procedures, rules of evidence, and key areas of criminal and constitutional law while building confidence in public presentation and logical argumentation.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Public Speaking</span>
+                        <span class="skill-tag">Legal Analysis</span>
+                        <span class="skill-tag">Courtroom Procedure</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Debate Skills</span>
+                    </div>
+                    <div class="featured-badge">Advanced</div>
+                </div>
+
+                <!-- Creative Writing -->
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Book Writing</h3>
+                        <div class="grade-level">Grades 9-12</div>
+                    </div>
+                    <p class="course-description">Unlock your imagination in this creative writing course for young authors. Learn the fundamentals of storytelling, including character development, plot structure, and setting, as you draft your own book idea. This class provides a supportive environment for developing your writing skills and finding your unique voice while completing a substantial creative work.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Creative Writing</span>
+                        <span class="skill-tag">Character Development</span>
+                        <span class="skill-tag">Plot Structure</span>
+                        <span class="skill-tag">Storytelling</span>
+                        <span class="skill-tag">Voice & Style</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path Section -->
+    <section class="learning-paths">
+        <div class="container">
+            <h2 class="section-title">Suggested Learning Paths</h2>
+            <div class="paths-grid">
+                <div class="path-card">
+                    <h3>Spanish Fluency Track</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Fun with Spanish</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Spanish I</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Spanish II</div>
+                    </div>
+                    <p>Complete progression from playful introduction to conversational fluency</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Legal Communications Path</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Spanish I</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Mock Trial</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Advanced Debate</div>
+                    </div>
+                    <p>Perfect for future lawyers and public speakers</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Creative Communication Track</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Book Writing</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Mock Trial</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Public Speaking</div>
+                    </div>
+                    <p>Combines creative and persuasive communication skills</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Global Communicator Path</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Spanish II</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Book Writing</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Cultural Studies</div>
+                    </div>
+                    <p>For students interested in international communication and cultural exchange</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Communication Skills Section -->
+    <section class="skills-focus">
+        <div class="container">
+            <h2 class="section-title">Essential Communication Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">🌍</div>
+                    <h3>Global Perspective</h3>
+                    <p>Develop cultural awareness and cross-cultural communication skills through language learning and diverse literary perspectives.</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Persuasive Communication</h3>
+                    <p>Master the art of persuasion through mock trial participation, debate, and structured argumentation techniques.</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">📚</div>
+                    <h3>Creative Expression</h3>
+                    <p>Find your unique voice through creative writing, storytelling, and personal narrative development.</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">💭</div>
+                    <h3>Critical Analysis</h3>
+                    <p>Develop analytical thinking through legal case study, literary analysis, and logical reasoning exercises.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real-World Applications -->
+    <section class="applications">
+        <div class="container">
+            <h2 class="section-title">Real-World Applications</h2>
+            <div class="applications-content">
+                <div class="application-item">
+                    <h3>🏛️ Legal Careers</h3>
+                    <p>Mock Trial prepares students for law school and legal careers through practical courtroom experience and constitutional law study.</p>
+                </div>
+                <div class="application-item">
+                    <h3>✍️ Publishing & Media</h3>
+                    <p>Book Writing develops skills essential for careers in publishing, journalism, content creation, and media production.</p>
+                </div>
+                <div class="application-item">
+                    <h3>🌎 International Business</h3>
+                    <p>Spanish fluency opens doors to global business opportunities and cross-cultural professional relationships.</p>
+                </div>
+                <div class="application-item">
+                    <h3>🎤 Public Speaking</h3>
+                    <p>All courses build confidence in public presentation, essential for leadership roles in any field.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Voice?</h2>
+                <p>Join our communication programs and develop the language and speaking skills that will serve you for life</p>
+                <a href="applications.html" class="cta-button">Apply for Language Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/subject-page.js"></script>
+    <style>
+        /* Additional styles for Language page sections */
+        .skills-focus {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .skill-item {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            background: var(--light-gray);
+            border-radius: 20px;
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-10px);
+            border-color: var(--subject-primary);
+            box-shadow: 0 15px 30px rgba(254, 202, 87, 0.1);
+        }
+
+        .skill-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-item h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .skill-item p {
+            color: #666;
+            line-height: 1.7;
+        }
+
+        .applications {
+            padding: 6rem 0;
+            background: var(--light-gray);
+        }
+
+        .applications-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .application-item {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            border-left: 5px solid var(--subject-primary);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .application-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(254, 202, 87, 0.2);
+        }
+
+        .application-item h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .application-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .applications-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

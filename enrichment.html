@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General & Enrichment - Avant-Garde Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Junction:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/program.css">
+    <style>
+        /* Enrichment-specific color overrides */
+        :root {
+            --subject-primary: #a8edea;
+            --subject-secondary: #fed6e3;
+            --subject-gradient: linear-gradient(45deg, #a8edea, #fed6e3);
+        }
+        
+        .highlight {
+            background: var(--subject-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .course-card:hover {
+            border-color: var(--subject-primary);
+        }
+        
+        .grade-level {
+            background: rgba(168, 237, 234, 0.2);
+            color: #2c7873;
+        }
+        
+        .skill-tag {
+            background: rgba(168, 237, 234, 0.2);
+            color: #2c7873;
+        }
+        
+        .path-step {
+            border-color: var(--subject-primary);
+        }
+        
+        .path-arrow {
+            color: var(--subject-primary);
+        }
+        
+        .path-card:hover {
+            border-color: var(--subject-primary);
+        }
+        
+        .cta-button {
+            background: var(--subject-gradient);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="curriculum.html">← Back to Curriculum</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-icon">🌟</div>
+            <h1>General & <span class="highlight">Enrichment</span></h1>
+            <p class="hero-subtitle">Foundational Skills, Leadership & Creative Play</p>
+            <p class="hero-description">Build essential skills through engaging activities that combine learning with fun, from mathematical foundations to entrepreneurial thinking and creative problem-solving.</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="container">
+            <div class="courses-grid">
+                
+                <!-- Mathematics -->
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Pre Algebra</h3>
+                        <div class="grade-level">Grades 6-9</div>
+                    </div>
+                    <p class="course-description">Do you want math to be more than numbers on a screen or page? This class will give the instruction needed to navigate high school algebra with ease using one-on-one help and practical real-life examples to make math fun! Students will master essential mathematical concepts through hands-on activities and personalized instruction.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Mathematical Reasoning</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Real-World Applications</span>
+                        <span class="skill-tag">Individual Support</span>
+                    </div>
+                </div>
+
+                <!-- Business & Leadership -->
+                <div class="course-card featured">
+                    <div class="course-header">
+                        <h3>Business Leadership</h3>
+                        <div class="grade-level">Grades 9-12</div>
+                    </div>
+                    <p class="course-description">A business class introduces young entrepreneurs to fundamental business concepts through interactive activities. Participants learn how to brainstorm and develop a product or service, create a basic business plan, understand costs and profit, and market their ideas. Students will actually engage in a real life business which will be affected by the choices they make. This class will be a prerequisite to participate in our student store.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Entrepreneurship</span>
+                        <span class="skill-tag">Business Planning</span>
+                        <span class="skill-tag">Financial Literacy</span>
+                        <span class="skill-tag">Marketing</span>
+                        <span class="skill-tag">Leadership</span>
+                    </div>
+                    <div class="featured-badge">Real Business</div>
+                </div>
+
+                <!-- Creative Learning -->
+                <div class="course-card featured">
+                    <div class="course-header">
+                        <h3>Lego Club</h3>
+                        <div class="grade-level">Grades 2-12</div>
+                    </div>
+                    <p class="course-description">Lego Club brings problem-solving, teamwork, fine motor skills and creativity together in a combination of collaboration and play. Collaborative group builds will be teams working together to complete a complex set or build a large-scale project with certain criteria to meet. Free-building sessions will dedicate time for unstructured play, allowing kids to create whatever they can imagine with a large bin of bricks.</p>
+                    <div class="course-skills">
+                        <span class="skill-tag">Creative Problem Solving</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Fine Motor Skills</span>
+                        <span class="skill-tag">Spatial Reasoning</span>
+                        <span class="skill-tag">Engineering Concepts</span>
+                    </div>
+                    <div class="featured-badge">All Ages</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path Section -->
+    <section class="learning-paths">
+        <div class="container">
+            <h2 class="section-title">Suggested Learning Paths</h2>
+            <div class="paths-grid">
+                <div class="path-card">
+                    <h3>Math Foundation Track</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Pre Algebra</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Algebra I</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Advanced Math</div>
+                    </div>
+                    <p>Solid mathematical foundation for high school and beyond</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Young Entrepreneur Path</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Business Leadership</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Student Store</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Advanced Business</div>
+                    </div>
+                    <p>Complete entrepreneurial experience from concept to execution</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Creative Builder Track</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Lego Club</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">3D Design</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Engineering</div>
+                    </div>
+                    <p>From playful building to serious engineering and design</p>
+                </div>
+                
+                <div class="path-card">
+                    <h3>Leadership Development Path</h3>
+                    <div class="path-sequence">
+                        <div class="path-step">Lego Club</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Business Leadership</div>
+                        <div class="path-arrow">→</div>
+                        <div class="path-step">Student Store Management</div>
+                    </div>
+                    <p>Build leadership skills through collaboration and business experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Programs Section -->
+    <section class="special-programs">
+        <div class="container">
+            <h2 class="section-title">Special Opportunities</h2>
+            <div class="programs-grid">
+                <div class="program-item">
+                    <div class="program-icon">🏪</div>
+                    <h3>Student Store</h3>
+                    <p><strong>Prerequisite:</strong> Business Leadership course</p>
+                    <p>Put your business skills to the test by participating in our real student-operated store. Students who complete Business Leadership can apply to help run the store, gaining hands-on experience in retail operations, inventory management, customer service, and financial tracking.</p>
+                    <div class="program-benefits">
+                        <span class="benefit-tag">Real Revenue</span>
+                        <span class="benefit-tag">Customer Service</span>
+                        <span class="benefit-tag">Inventory Management</span>
+                    </div>
+                </div>
+                
+                <div class="program-item">
+                    <div class="program-icon">🏆</div>
+                    <h3>Lego Competitions</h3>
+                    <p><strong>Open to:</strong> All Lego Club members</p>
+                    <p>Showcase your building skills in themed competitions throughout the year. From speed builds to creative challenges, these events foster healthy competition while celebrating innovation and teamwork. Winners receive recognition and special building privileges.</p>
+                    <div class="program-benefits">
+                        <span class="benefit-tag">Team Building</span>
+                        <span class="benefit-tag">Public Speaking</span>
+                        <span class="benefit-tag">Recognition</span>
+                    </div>
+                </div>
+                
+                <div class="program-item">
+                    <div class="program-icon">🎯</div>
+                    <h3>Math Tutoring</h3>
+                    <p><strong>Available to:</strong> All Pre Algebra students</p>
+                    <p>Individual and small group tutoring sessions complement our Pre Algebra course. Students receive personalized attention to address specific learning challenges and accelerate their mathematical understanding through targeted instruction.</p>
+                    <div class="program-benefits">
+                        <span class="benefit-tag">One-on-One Help</span>
+                        <span class="benefit-tag">Flexible Scheduling</span>
+                        <span class="benefit-tag">Personalized Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Development Section -->
+    <section class="skills-development">
+        <div class="container">
+            <h2 class="section-title">Essential Life Skills Developed</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>🧠 Critical Thinking</h3>
+                    <ul>
+                        <li>Mathematical problem-solving strategies</li>
+                        <li>Business case analysis and decision-making</li>
+                        <li>Creative engineering solutions</li>
+                        <li>Logical reasoning and pattern recognition</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>👥 Collaboration</h3>
+                    <ul>
+                        <li>Team-based Lego building projects</li>
+                        <li>Group business ventures and planning</li>
+                        <li>Peer tutoring and support systems</li>
+                        <li>Leadership roles in student store</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>💡 Innovation</h3>
+                    <ul>
+                        <li>Creative building with unlimited resources</li>
+                        <li>Entrepreneurial thinking and opportunity recognition</li>
+                        <li>Mathematical modeling of real-world problems</li>
+                        <li>Design thinking and iterative improvement</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>📈 Practical Skills</h3>
+                    <ul>
+                        <li>Financial literacy and budget management</li>
+                        <li>Customer service and communication</li>
+                        <li>Time management and organization</li>
+                        <li>Goal setting and achievement tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Build Your Foundation?</h2>
+                <p>Join our enrichment programs and develop the essential skills that will support success in any field you choose</p>
+                <a href="applications.html" class="cta-button">Apply for Enrichment Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/subject-page.js"></script>
+    <style>
+        /* Additional styles for Enrichment page sections */
+        .special-programs {
+            padding: 6rem 0;
+            background: white;
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .program-item {
+            background: var(--light-gray);
+            padding: 2.5rem;
+            border-radius: 20px;
+            border: 3px solid transparent;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .program-item:hover {
+            transform: translateY(-10px);
+            border-color: var(--subject-primary);
+            box-shadow: 0 15px 30px rgba(168, 237, 234, 0.2);
+        }
+
+        .program-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .program-item h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--dark);
+        }
+
+        .program-item p {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        .program-benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .benefit-tag {
+            background: rgba(168, 237, 234, 0.2);
+            color: #2c7873;
+            padding: 0.4rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .skills-development {
+            padding: 6rem 0;
+            background: var(--light-gray);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            border-left: 5px solid var(--subject-primary);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(168, 237, 234, 0.15);
+        }
+
+        .skill-category h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+        }
+
+        .skill-category ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-category li {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .skill-category li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--subject-primary);
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .programs-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .program-item {
+                padding: 2rem;
+            }
+        }
+    </style>
+</body>
+</html>
