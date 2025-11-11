@@ -45,7 +45,7 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
 });
 
 function sendToGoogleSheets(data) {
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdXUqeM4VDZ4MaADxSxpUPOx12Ju-vYmTGsEWrIESd0lVui-fpZhKe-RpQCgF_oYLPNA/exec';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbySN_DKD8KhQZIf6tl1zOzfebmIkU3auvM17jb7TpgG6UfxSIbIyWbmbokLvd-6voxVng/exec';
     
     fetch(SCRIPT_URL, {
         method: 'POST',
